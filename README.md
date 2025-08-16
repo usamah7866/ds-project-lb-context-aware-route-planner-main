@@ -1,9 +1,8 @@
-Location-Based Context-Aware Route Planner
-📌 Overview
-
+# Location-Based Context-Aware Route Planner
+# Overview
 This project proposes a context-aware route planner that integrates air quality data with traditional traffic and distance metrics to recommend healthier and more sustainable travel routes. Instead of simply minimizing travel time, the system balances travel efficiency with environmental health by reducing exposure to air pollutants such as PM2.5 and PM10.
 
-The system leverages:
+# The system leverages:
 
 Graph-based algorithms: Dijkstra’s Algorithm & Bellman-Ford Algorithm
 
@@ -15,7 +14,7 @@ Linear Weighting Method to combine distance, pollution levels, and traffic
 
 This project demonstrates how urban mobility can be made healthier by recommending routes that optimize both travel time and pollution exposure.
 
-✨ Key Features
+# Key Features
 
 📍 Location-based routing using NYC street network data
 
@@ -31,7 +30,7 @@ This project demonstrates how urban mobility can be made healthier by recommendi
 
 🧪 Evaluation with stratified sampling for efficiency vs. accuracy
 
-📂 Datasets Used
+# Datasets Used
 
 NYCPilot1PM.csv → Air quality sensor data (PM2.5, PM10, timestamps, locations)
 
@@ -39,7 +38,7 @@ nyc1.csv → NYC taxi mobility dataset (pickup/drop-off, fares, trip distance, p
 
 nycpolygon.geojson → NYC street network (road segments, geometries, attributes)
 
-⚙️ Methodology
+# Methodology
 
 The project is divided into five main tasks:
 
@@ -73,7 +72,7 @@ Reporting & Discussion
 
 Documenting findings, trade-offs, and potential improvements
 
-🚀 Future Directions
+# Future Directions
 
 ✅ Incorporate real-time traffic congestion & elevation into routing
 
@@ -85,7 +84,7 @@ Documenting findings, trade-offs, and potential improvements
 
 ✅ Community-driven IoT air quality sensor integration
 
-📊 Results
+# Results
 
 Pollution-aware routes significantly reduce PM2.5 exposure compared to shortest-distance routes.
 
